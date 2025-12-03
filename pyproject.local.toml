@@ -1,0 +1,14 @@
+[project]
+name = "beyond-chatgpt"
+version = "0.1.0"
+description = "gpt-like-a-dev"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "openai",
+    "pydantic>=2.11.4",
+    "python-dotenv>=1.2.1",
+]
+# FastAPI and uvicorn removed - using Vercel serverless functions instead
+# For local FastAPI development, see api/index.py.backup
